@@ -25,12 +25,12 @@ blockquote {
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
-
 img {
   width: 100%;
+}
+
+a {
+  color: inherit;
 }
 
 button {
