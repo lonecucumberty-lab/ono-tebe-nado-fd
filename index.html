@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="fonts/fonts.css"/>
-    <link rel="stylesheet" href="styles/global.css"/>
-    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
@@ -23,9 +23,13 @@
             <a href="#" class="header__link">об аукционе</a>
           </li>
         </ul>
-        <div class="header__logo">
-          <img src="/images/logo-black.svg" alt="Логотип" class="header__logo-img">
-        </div>
+        <a>
+          <img
+            class="header__logo-img"
+            src="/images/logo-black.svg"
+            alt="Логотип"
+          />
+        </a>
         <address class="header__address">
           <ul class="address">
             <li>
@@ -63,7 +67,7 @@
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a href="#">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -115,12 +119,14 @@
         <p><a class="lots__look-more-link" href="#">посмотреть больше</a></p>
       </section>
       <section class="about">
-        <div class="about__column">
-          <div class="about__logo">
-            <img src="/images/logo-white.svg" alt="Логотип" class="about__logo-img">
-          </div>
+        <div class="about__logo">
+          <img
+            src="/images/logo-white.svg"
+            alt="Логотип"
+            class="about__logo-img"
+          />
         </div>
-        <div class="about__column">
+        <div class="about__column-right">
           <h2 class="about__title">об аукционе</h2>
           <div class="about__text">
             <p>
@@ -156,13 +162,13 @@
               info@sobaka.ge
             </a>
           </li>
-          <li>наб.<span class="address-item"> Принсенграхт 263-</span></li>
-          <li>265,<span class="address-item"> Амстердам</span></li>
+          <li>наб.<span class="address-item"> Принсенграхт 263-265,</span></li>
+          <li><span class="address-item"> Амстердам</span></li>
         </ul>
       </address>
-      <nav class="footer__menu">
+      <nav>
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item footer__menu-list-indentation">
+          <li class="footer__menu-list-item">
             <a href="#" class="footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
@@ -173,34 +179,32 @@
           </li>
         </ul>
       </nav>
-      <div class="social">
-        <ul class="footer__social-list">
-          <li class="footer__social-list-item">
-            <a
-              class="footer__social-link footer__social-icon-yt" 
-              target="_blank"
-              href="https://www.youtube.com/?app=desktop&hl=ru"
-            >
-            </a>
-          </li>
-          <li class="footer__social-list-item">
-            <a
-              class="footer__social-link footer__social-icon-vk" 
-              target="_blank"
-              href="https://vk.com/feed"
-            >
-            </a>
-          </li>
-          <li class="footer__social-list-item">
-            <a
-              class="footer__social-link footer__social-icon-pin" 
-              target="_blank"
-              href="https://ru.pinterest.com/"
-            >
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a
+            class="footer__social-icon-yt"
+            target="_blank"
+            href="https://www.youtube.com/?app=desktop&hl=ru"
+          >
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a
+            class="footer__social-icon-vk"
+            target="_blank"
+            href="https://vk.com/feed"
+          >
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a
+            class="footer__social-icon-pin"
+            target="_blank"
+            href="https://ru.pinterest.com/"
+          >
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
