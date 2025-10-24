@@ -54,7 +54,6 @@
   justify-self: end; 
   padding-right: 35px;
   padding-bottom: 2px;
-
 }
 
 .address {
@@ -202,7 +201,6 @@
 .card {
   min-width: 334px;
   min-height: 596px;
-  padding-bottom: 30px;
 }
 
 .card__title {
@@ -377,7 +375,7 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block; 
-} 
+}
 
 .footer__social-icon-yt {
   background-image: url(../images/yt.svg);
