@@ -1,1 +1,1 @@
-https://github.com/lonecucumberty-lab/ono-tebe-nado-fd#
+https://github.com/lonecucumberty-lab/ono-tebe-nado-fd

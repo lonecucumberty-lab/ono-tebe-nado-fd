@@ -117,19 +117,19 @@
 
 .aligned-text_left {
   text-align: left;
-  padding: 165px 0px 20px 50px;
+  padding: 165px 0 20px 50px;
   margin-right: 0;
 }
 
 .aligned-text_center {
   text-align: center;
-  padding: 0 0px 20px 31px;
+  padding: 0 0 20px 31px;
   margin-right: 0;
 }
 
 .aligned-text_right {
   text-align: right;
-  padding: 0 50px 0 663px;
+  padding: 0 50px 0 664px;
   margin-right: 0;
 }
 
@@ -173,7 +173,7 @@
 /* Lots */
 
 .lots {
-  margin: 0px 24px 120px 24px;
+  margin: 0 24px 120px 24px;
 }
 
 .lots__heading {
@@ -324,7 +324,7 @@
 /* Footer */
 
 .footer {
-  margin: 0px 50px 82px 50px;
+  margin: 0 50px 82px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
   align-items: start;
