@@ -1,6 +1,6 @@
 /* Header */
 .header {
-  margin: 94px 50px;
+  margin: 90px 50px;
 }
 
 .header__menu {
@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  justify-items: center;
+  justify-items: start;
 }
 
 .header__links-list {
@@ -20,7 +20,8 @@
   white-space: nowrap;
   align-items: center;
   line-height: 100%;
-  padding-right: 30.52px;
+  padding-bottom: 7px;
+
 }
 
 .header__links-list-item_no-bullit {
@@ -45,6 +46,7 @@
   width: 148px;
   height: 105px;
   object-fit: contain;
+  padding-bottom: -4px;
 }
 
 .header__address {
@@ -53,7 +55,7 @@
   align-items: flex-start;
   justify-self: end; 
   padding-right: 35px;
-  padding-bottom: 2px;
+  padding-bottom: 6px;
 }
 
 .address {
@@ -367,7 +369,8 @@
   list-style-type: none;
 }
  
-.footer__social-list-item {
+.footer__social-icon-yt {
+  background-image: url(../images/yt.svg);
   width: 48px;
   height: 48px;
   background-size: contain;
@@ -376,14 +379,25 @@
   display: block; 
 }
 
-.footer__social-icon-yt {
-  background-image: url(../images/yt.svg);
-}
 
 .footer__social-icon-vk {
   background-image: url(../images/vk.svg);
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block; 
 }
+
 
 .footer__social-icon-pin {
   background-image: url(../images/pinterest.svg);
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block; 
 }
+
