@@ -199,8 +199,8 @@
 }
 
 .card {
-  min-width: 334px;
-  min-height: 596px;
+  width: 334px;
+  height: 596px;
 }
 
 .card__title {
@@ -270,7 +270,6 @@
 /* About */
 
 .about {
-  min-height: 595px;
   display: grid;
   grid-template-columns: 334px auto;
   margin: 0 24px 180px 24px;
